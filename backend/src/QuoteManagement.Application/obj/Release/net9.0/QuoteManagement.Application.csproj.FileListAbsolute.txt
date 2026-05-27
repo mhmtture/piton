@@ -1,0 +1,16 @@
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\bin\Release\net9.0\QuoteManagement.Application.deps.json
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\bin\Release\net9.0\QuoteManagement.Application.dll
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\bin\Release\net9.0\QuoteManagement.Application.pdb
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\bin\Release\net9.0\QuoteManagement.Domain.dll
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\bin\Release\net9.0\QuoteManagement.Domain.pdb
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\QuoteManagement.Application.csproj.AssemblyReference.cache
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\QuoteManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\QuoteManagement.Application.AssemblyInfoInputs.cache
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\QuoteManagement.Application.AssemblyInfo.cs
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\QuoteManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\QuoteManagement.Application.sourcelink.json
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\QuoteMan.D790B6F2.Up2Date
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\QuoteManagement.Application.dll
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\refint\QuoteManagement.Application.dll
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\QuoteManagement.Application.pdb
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Application\obj\Release\net9.0\ref\QuoteManagement.Application.dll

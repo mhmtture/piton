@@ -1,0 +1,12 @@
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\bin\Release\net9.0\QuoteManagement.Domain.deps.json
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\bin\Release\net9.0\QuoteManagement.Domain.dll
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\bin\Release\net9.0\QuoteManagement.Domain.pdb
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\obj\Release\net9.0\QuoteManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\obj\Release\net9.0\QuoteManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\obj\Release\net9.0\QuoteManagement.Domain.AssemblyInfo.cs
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\obj\Release\net9.0\QuoteManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\obj\Release\net9.0\QuoteManagement.Domain.sourcelink.json
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\obj\Release\net9.0\QuoteManagement.Domain.dll
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\obj\Release\net9.0\refint\QuoteManagement.Domain.dll
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\obj\Release\net9.0\QuoteManagement.Domain.pdb
+C:\Users\mhmtt\Desktop\piton-2\backend\src\QuoteManagement.Domain\obj\Release\net9.0\ref\QuoteManagement.Domain.dll

@@ -1,0 +1,61 @@
+version: '3.9'
+
+services:
+  # ─── PostgreSQL ────────────────────────────────────────────
+  db:
+    image: postgres:16-alpine
+    container_name: quotemanagement-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: quotemanagement
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres -d quotemanagement" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─── Backend (.NET 9) ──────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: quotemanagement-backend
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=quotemanagement;Username=postgres;Password=postgres"
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: [ "CMD-SHELL", "echo > /dev/tcp/localhost/8080 2>/dev/null && echo healthy || exit 1" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ─── Frontend (Next.js) ────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: quotemanagement-frontend
+    restart: unless-stopped
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8080
+    ports:
+      - "3001:3000"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
