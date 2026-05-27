@@ -89,12 +89,6 @@ docker-compose up -d
 ```
 
 Servisler otomatik olarak başlar:
-| Servis | URL |
-|---|---|
-| 🌐 Frontend | http://localhost:3000 |
-| ⚙️ Backend API | http://localhost:8080 |
-| 📖 Swagger UI | http://localhost:8080/swagger |
-| 🗄️ PostgreSQL | localhost:5432 |
 
 > **Not:** `init.sql` dosyası ilk çalıştırmada otomatik olarak yüklenir (schema + seed data).
 
